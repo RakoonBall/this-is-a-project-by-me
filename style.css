@@ -2,7 +2,7 @@ body{
     font-family: 'Gentium Book Plus', serif;
 
 }
-section{
+.flex{
     display: flex;
     margin-bottom: 5%;
 }
@@ -29,6 +29,7 @@ section{
     padding: 20px 20px;
     border-radius: 10px;
     background-image: linear-gradient(blue,rgb(0, 255, 162));
+    font-weight: 700;
 }
 h1{
     font-size: 50px;
@@ -44,4 +45,10 @@ p{
 }
 .fourth{
     align-items: center;
+}
+.fifth{
+    padding: 10%;
+}
+.thirty-three{
+    width:33%
 }
