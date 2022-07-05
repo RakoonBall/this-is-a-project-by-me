@@ -1,5 +1,6 @@
 body{
     font-family: 'Gentium Book Plus', serif;
+    margin: 0;
 
 }
 .flex{
@@ -10,10 +11,12 @@ body{
 .first{
     background-image: url(eat-healthy-main/images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
-    margin-bottom: 10px;
+    padding-left: 5%;
+    
 }
 .second{
-    background-image: url(eat-healthy-main/images/shapes/Frame\ 58.jpg);
+    background-image: url(eat-healthy-main/images/shapes/Frame\ 59.jpg);
+    padding-right: 5%;
 }
 .half-width{
     width: 50%;
@@ -21,6 +24,7 @@ body{
 }
 .half-width img{
     width:100%
+
 }
 .button{
     background-color: brown;
@@ -37,18 +41,38 @@ h1{
 h2{
     font-size: 40px;
 }
+h3{
+    font-size: 35px;
+}
 .border{
-    border-color: black;
+    margin: 3%;
+    
+    box-shadow: 5px 5px 5px 5px gray;
+    width: 40%;
+    padding: 10px;
+    border-radius: 15px;
 }
 p{
     font-size: 20px;
 }
 .fourth{
-    align-items: center;
+    text-align: center;
 }
 .fifth{
-    padding: 10%;
+    padding: 5%;
 }
 .thirty-three{
-    width:33%
+    width:50%
+}
+.border1{
+    box-shadow: 5px 5px 5px 5px gray;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+   
+}
+footer{
+    
+    text-align: center;
+    background-color: black;
 }
