@@ -1,3 +1,19 @@
-.first-para{
-    
+body{
+    font-family: 'Gentium Book Plus', serif;
+
+}
+section{
+    display: flex;
+}
+
+.first{
+    background-image: url(eat-healthy-main/images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+.second{
+    background-image: url(eat-healthy-main/images/shapes/Frame\ 58.jpg);
+}
+.half-width{
+    width: 50%;
 }
